@@ -1,0 +1,32 @@
+name: build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Kodu al
+        uses: actions/checkout@v4
+
+      - name: Java 21 kur
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: gradlew calistirilabilir yap
+        run: chmod +x ./gradlew
+
+      - name: Derle
+        run: ./gradlew build --no-daemon
+
+      - name: Jar dosyasini yukle
+        uses: actions/upload-artifact@v4
+        with:
+          name: kozmetik-mod
+          path: build/libs/*.jar
+          if-no-files-found: error

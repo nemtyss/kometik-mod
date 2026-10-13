@@ -1,0 +1,151 @@
+{
+ "sword": [
+  {
+   "id": "buz",
+   "name": "Buz Kılıcı"
+  },
+  {
+   "id": "ametist",
+   "name": "Ametist"
+  },
+  {
+   "id": "altin",
+   "name": "Altın Kılıç"
+  },
+  {
+   "id": "gumus",
+   "name": "Gümüş"
+  },
+  {
+   "id": "obsidyen",
+   "name": "Obsidyen"
+  },
+  {
+   "id": "kizil",
+   "name": "Kızıl Kan"
+  },
+  {
+   "id": "elmas",
+   "name": "Elmas Kılıç"
+  },
+  {
+   "id": "zumrut",
+   "name": "Zümrüt"
+  },
+  {
+   "id": "mor_ejder",
+   "name": "Mor Ejder"
+  },
+  {
+   "id": "kristal",
+   "name": "Kristal"
+  },
+  {
+   "id": "golge",
+   "name": "Gölge"
+  },
+  {
+   "id": "kan_golge",
+   "name": "Kan Gölge"
+  },
+  {
+   "id": "gokkusagi",
+   "name": "Gökkuşağı"
+  },
+  {
+   "id": "gece_mavisi",
+   "name": "Gece Mavisi"
+  },
+  {
+   "id": "buzul",
+   "name": "Buzul"
+  },
+  {
+   "id": "bakir_ates",
+   "name": "Bakır Ateş"
+  },
+  {
+   "id": "gunes",
+   "name": "Güneş"
+  },
+  {
+   "id": "lav",
+   "name": "Lav"
+  },
+  {
+   "id": "isik",
+   "name": "Işık"
+  },
+  {
+   "id": "ay_gumusu",
+   "name": "Ay Gümüşü"
+  },
+  {
+   "id": "netherit",
+   "name": "Netherit"
+  },
+  {
+   "id": "zehir",
+   "name": "Zehir"
+  },
+  {
+   "id": "okyanus",
+   "name": "Okyanus"
+  },
+  {
+   "id": "pembe",
+   "name": "Pembe Rüya"
+  }
+ ],
+ "totem": [
+  {
+   "id": "altin",
+   "name": "Altın Totem"
+  },
+  {
+   "id": "zumrut",
+   "name": "Zümrüt Totem"
+  },
+  {
+   "id": "elmas",
+   "name": "Elmas Totem"
+  },
+  {
+   "id": "ametist",
+   "name": "Ametist Totem"
+  },
+  {
+   "id": "yakut",
+   "name": "Yakut Totem"
+  },
+  {
+   "id": "obsidyen",
+   "name": "Obsidyen Totem"
+  },
+  {
+   "id": "buz",
+   "name": "Buz Totem"
+  },
+  {
+   "id": "ates",
+   "name": "Ateş Totem"
+  },
+  {
+   "id": "gokkusagi",
+   "name": "Gökkuşağı Totem"
+  },
+  {
+   "id": "gece",
+   "name": "Gece Totem"
+  },
+  {
+   "id": "kemik",
+   "name": "Kemik Totem"
+  },
+  {
+   "id": "ender",
+   "name": "Ender Totem"
+  }
+ ],
+ "skin": []
+}

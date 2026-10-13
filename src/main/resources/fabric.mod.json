@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "kozmetik",
+	"version": "${version}",
+	"name": "Kozmetik Menüsü",
+	"description": "Oyun içi menüden kılıç, totem ve oyuncu skini seç; vuruş/öldürme efektleri ekle; menü rengini ayarla. Yalnızca istemci (client) modudur.",
+	"authors": [
+		"Kozmetik"
+	],
+	"license": "MIT",
+	"icon": "assets/kozmetik/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.kozmetik.KozmetikMod"
+		]
+	},
+	"mixins": [
+		"kozmetik.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": [
+			"1.21",
+			"1.21.1"
+		],
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
